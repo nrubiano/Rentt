@@ -19,4 +19,9 @@
 		<PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="8.1.1" />
 		<PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="9.0.0" />
 	</ItemGroup>
+
+	<ItemGroup>
+	  <ProjectReference Include="..\Rentt.Application\Rentt.Application.csproj" />
+	  <ProjectReference Include="..\Rentt.Infrastructure\Rentt.Infrastructure.csproj" />
+	</ItemGroup>
 </Project>

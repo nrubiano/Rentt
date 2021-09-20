@@ -13,9 +13,9 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Domain", "Domain", "{B09065
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentt.Application", "src\Rentt.Application\Rentt.Application.csproj", "{E72EAD9A-B8F3-4D83-B614-A5005413FF35}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentt.Domain", "Rentt.Domain\Rentt.Domain.csproj", "{0F24007B-C553-4B02-AFE2-C90E49D9C92B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentt.Domain", "src\Rentt.Domain\Rentt.Domain.csproj", "{0F24007B-C553-4B02-AFE2-C90E49D9C92B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentt.Infrastructure", "Rentt.Infrastructure\Rentt.Infrastructure.csproj", "{D1FE1CD5-EFC9-4700-9278-D214D9CBF70B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Rentt.Infrastructure", "src\Rentt.Infrastructure\Rentt.Infrastructure.csproj", "{D1FE1CD5-EFC9-4700-9278-D214D9CBF70B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

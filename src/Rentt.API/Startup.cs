@@ -4,6 +4,8 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Rentt.API.Configurations;
+using Rentt.Application;
+using Rentt.Infrastructure;
 
 namespace Rentt.API
 {
@@ -25,6 +27,10 @@ namespace Rentt.API
         
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddApplication();
+
+            services.AddInfrasctructure(Configuration);
+
             services.AddControllers();
 
             services.AddSwaggerConfig();
@@ -34,6 +40,8 @@ namespace Rentt.API
         {
             if (env.IsDevelopment())
             {
+                app.UpdateDatabase();
+
                 app.UseDeveloperExceptionPage();
             }
 
