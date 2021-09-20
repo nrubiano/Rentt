@@ -14,7 +14,7 @@ namespace Rentt.API.Controllers
         /// <summary>
         /// Gets the list of movies
         /// </summary>        
-        /// <response code="200">OK. Devuelve el objeto solicitado.</response>                
+        /// <response code="200">Returns the movies list</response>                
         [HttpGet("")]                
         [ProducesResponseType(StatusCodes.Status200OK)]
         public async Task<ActionResult<IList<MovieDto>>> Get() {
